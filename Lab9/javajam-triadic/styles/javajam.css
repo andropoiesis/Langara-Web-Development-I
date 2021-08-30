@@ -1,0 +1,30 @@
+body {
+		background-color: #ccaa66;
+		color: #194b3b;
+		font-family: Verdana, Arial, sans-serif;
+}
+
+h1 {
+	background-color: #aa65cc;
+	color: #3b194b;
+	line-height: 200%;
+	text-align: center;
+}
+
+#nav {
+		text-align: center;
+}
+
+#footer {
+			background-color: #65ccaa;
+			color: #3b194b;
+			font-size: .60em;
+			font-style: italic;
+			text-align: center;
+}
+
+#wrapper {
+			width: 80%;
+			margin-right: auto;
+			margin-left: auto;
+}

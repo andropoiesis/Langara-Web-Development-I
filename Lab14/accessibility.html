@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<title>Accessibility Tests</title>
+		<meta charset="utf-8">
+	</head>
+	
+	<body>
+		<h1>Accessibility Tests</h1>
+		
+		<h3>Differences</h3>
+		
+		<p>
+			WebAIM Wave displays the results of the test by displaying the web
+			page and placing error/alerts icons directly on the display of the
+			page where they occur. Information and suggestions for changes about 
+			these errors is displayed on the left column whenever the icons are 
+			selected.
+		</p>
+		
+		<p>
+			ATRC AChecker divides the results into tabs, listing "Known Problems",
+			"Likely Problems", and "Potential Problems". Each tab lists errors by
+			further categories such as "Text Alternatives", "Adaptable", and
+			"Readable". Within these categories, the line in the page source
+			with the error is identified and changes to the line are suggested.
+		</p>
+		
+		<h3>Similarities</h3>
+		
+		<p>
+			Both tests found similar errors:
+		</p>
+		
+		<ul>
+			<li>Hyperlink elements with no text or alt attributes.</li>
+			<li>Language of the document is not specified.</li>
+			<li>Buttons with no text.</li>
+		</ul>
+		
+		<h3>Recommendations for Improvement</h3>
+		
+		<p>
+			First of all, the document language needs to be specified. The html
+			element needs to include a lang attribute, in this case, lang="en".
+			Next, the button element in the search input field should have an
+			alt attribute in which alternative text can be displayed for screen
+			readers. Italics elements should be replaced with strong or em elements.
+			Since the hyperlink elements have no text, they should have text, or
+			a title attribute to identify the hyperlink to screen readers.
+		</p>
+		
+		<a href="index.html">Back to Home Page</a>
+	</body>
+</html>

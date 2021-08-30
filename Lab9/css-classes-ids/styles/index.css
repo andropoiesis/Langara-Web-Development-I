@@ -1,0 +1,34 @@
+body {
+		background-color: #6ACBCB;
+		color: #055050;
+}
+
+ul {
+	color: #277070;
+}
+
+h1 {
+		background-color: #149595;
+		color: #055050;
+}
+
+#contents {
+			background-color: #FCBA84;
+			color: #A24F0B;
+}
+
+a:link {
+			color: #277070;
+}
+
+a:visited {
+			color: #BB7841;
+}
+
+.extLink:link{
+				color: #9AFBFB;
+}
+
+.extLink:visited {
+					color: #FFBD87;
+}

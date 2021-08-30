@@ -1,0 +1,127 @@
+#wrapper {
+			margin: 0;
+			background-color: #fffedc;
+			font-family: Arial, Verdana, sans-serif;
+			color: #855c5c;
+}
+
+#header {
+			background-color: #cc9ba1;
+			color: #f1ebe4;
+			text-align: center;
+}
+
+#leftcolumn {
+				font-weight: bold;
+}
+
+#leftcolumn ul {
+				list-style-type: none;
+				background-color: #c2ebff;
+				margin: 0;
+				padding-left: 0;
+}
+
+#leftcolumn a {
+				text-decoration: none;
+				text-align: center;
+				display: block;
+				padding-top: 5px;
+				padding-bottom: 5px;
+				color: #126EA0;
+				border: solid 1px #fffedc;
+}
+
+#leftcolumn a:active {
+						color: #FFFFFF;
+}
+
+#toplevel ul {
+				display: none;
+}
+
+#content {
+			padding-left: 2%;
+}
+
+#contentHead {
+				text-align: center;
+}
+
+#content a {
+				text-decoration: none;
+				background-color: #C2EBFF;
+				color: #126EA0;
+				border: solid #FFFFFF;
+}
+
+#content a:active {
+					background-color: #126EA0;
+					color: #FFFFFF;
+}
+
+#description li {
+				list-style-type: none;
+				margin-top: 20px;
+				margin-left: 50px;
+}
+
+#blog {
+			margin-bottom: 2%;
+			text-align: center;
+}
+
+#googlePlus {
+				text-align: center;
+}
+
+.link {
+			text-align: center;
+			margin-bottom: 5%;
+}
+
+.link img {
+			display: none;
+}
+
+#bookCover {
+				margin-left: 0;
+}
+
+#map {
+		color: #126EA0;
+}
+
+#map a {
+			background-color: #fffedc;
+			border: none;
+			padding: 0;
+}
+
+h3 {
+		text-align: center;
+}
+
+#breadcrumb {
+				margin-left: 2%;
+				font-size: 0.9em;
+}
+
+#breadcrumb a {
+				text-decoration: none;
+				color: #126EA0;
+}
+
+#backToTop {
+				margin-left: 2%;
+				text-decoration: none;
+				color: #126EA0;
+				font-size: 0.9em;
+}
+
+#footer {
+			background-color: #cc9ba1;
+			color: #f1ebe4;
+			text-align: center;
+			border-left: solid 5px #fffedc;
+}
